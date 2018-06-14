@@ -70,3 +70,24 @@ equal(negate('is an empty map'), 'is not an empty map')
 
 equal(negate('are empty'), 'are not empty'),
 equal(negate('are present'), 'are not present')
+
+equal(negate('lt'), 'nlt'),
+equal(negate('gt'), 'ngt')
+equal(negate('lte'), 'nlte'),
+equal(negate('gte'), 'ngte')
+
+equal(negate('has a whitespace'), 'does not have a whitespace'),
+equal(negate("have more than"), 'does not have more than'),
+equal(negate("have less than"), 'does not have less than'),
+equal(negate("have many"), 'does not have many'),
+equal(negate("have"), 'does not have'),
+equal(negate("has more than"), 'does not have more than'),
+equal(negate("has less than"), 'does not have less than'),
+equal(negate("has many"), 'does not have many'),
+equal(negate("has length of at least"), 'does not have length of at least'),
+equal(negate("has length of at most"), 'does not have length of at most'),
+equal(negate("has length of"), 'does not have length of'),
+equal(negate("has extension of"), 'does not have extension of'),
+equal(negate('has a newline'), 'does not have a newline'),
+equal(negate('has a number'), 'does not have a number'),
+equal(negate('has numbers'), 'does not have numbers')
