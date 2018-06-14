@@ -67,6 +67,7 @@ equal(negate('is an empty string'), 'is not an empty string'),
 equal(negate('is an empty object'), 'is not an empty object'),
 equal(negate('is an empty set'), 'is not an empty set'),
 equal(negate('is an empty map'), 'is not an empty map')
+equal(negate('is equal to'), 'is not equal to')
 
 equal(negate('are empty'), 'are not empty'),
 equal(negate('are present'), 'are not present')
@@ -77,10 +78,10 @@ equal(negate('lte'), 'nlte'),
 equal(negate('gte'), 'ngte')
 
 equal(negate('has a whitespace'), 'does not have a whitespace'),
-equal(negate("have more than"), 'does not have more than'),
-equal(negate("have less than"), 'does not have less than'),
-equal(negate("have many"), 'does not have many'),
-equal(negate("have"), 'does not have'),
+equal(negate("have more than"), 'do not have more than'),
+equal(negate("have less than"), 'do not have less than'),
+equal(negate("have many"), 'do not have many'),
+equal(negate("have"), 'do not have'),
 equal(negate("has more than"), 'does not have more than'),
 equal(negate("has less than"), 'does not have less than'),
 equal(negate("has many"), 'does not have many'),
