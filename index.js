@@ -1,5 +1,9 @@
 module.exports = function negate(string) {
-  if (string === 'is positive') return 'is not positive'
-  if (string === 'responds to') return 'does not respond to'
+  if (string.startsWith('is')) {
+    if (string.startsWith('not', 3)) {
+      return string
+    }
+    return string.substr(0, 2) + ' not ' + string.substr(3)
+  }
   return string
 }
