@@ -67,3 +67,6 @@ equal(negate('is an empty string'), 'is not an empty string'),
 equal(negate('is an empty object'), 'is not an empty object'),
 equal(negate('is an empty set'), 'is not an empty set'),
 equal(negate('is an empty map'), 'is not an empty map')
+
+equal(negate('are empty'), 'are not empty'),
+equal(negate('are present'), 'are not present')
