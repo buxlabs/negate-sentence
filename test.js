@@ -92,3 +92,21 @@ equal(negate("has extension of"), 'does not have extension of'),
 equal(negate('has a newline'), 'does not have a newline'),
 equal(negate('has a number'), 'does not have a number'),
 equal(negate('has numbers'), 'does not have numbers')
+
+equal(negate('bitwise or'), 'not bitwise or'),
+equal(negate('bitwise and'), 'not bitwise and')
+equal(negate('bitwise xor'), 'not bitwise xor'),
+equal(negate('bitwise not'), 'not bitwise not')
+
+equal(negate('responds to'), 'does not respond to')
+equal(negate('starts with'), 'does not start with')
+equal(negate('ends with'), 'does not end with')
+
+equal(negate('includes'), 'does not include')
+equal(negate('matches'), 'does not match')
+
+equal(negate('equals'), 'does not equal'),
+equal(negate('contains'), 'does not contain')
+
+
+
