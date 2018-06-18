@@ -101,8 +101,8 @@ equal(negate('responds to'), 'does not respond to')
 equal(negate('starts with'), 'does not start with')
 equal(negate('ends with'), 'does not end with')
 
-// equal(negate('includes'), 'does not include')
-// equal(negate('matches'), 'does not match')
+equal(negate('includes'), 'does not include')
+equal(negate('matches'), 'does not match')
 
 equal(negate('equals'), 'does not equal'),
 equal(negate('contains'), 'does not contain')
