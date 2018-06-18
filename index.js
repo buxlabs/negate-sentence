@@ -1,7 +1,7 @@
 const { string: { singularize, pluralize } } = require('pure-utilities')
 
 module.exports = function negate(string) {
-  if (['gt', 'lt', 'gte', 'lte'].includes(string)) return `n${string}`
+  if (['gt', 'lt', 'gte', 'lte', 'and', 'eq', 'or', 'xor'].includes(string)) return `n${string}`
   const words = string.split(' ')
   const firstWord = words[0]
 

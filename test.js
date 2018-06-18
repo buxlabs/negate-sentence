@@ -73,8 +73,12 @@ equal(negate('are present'), 'are not present')
 
 equal(negate('lt'), 'nlt'),
 equal(negate('gt'), 'ngt')
+equal(negate('and'), 'nand')
 equal(negate('lte'), 'nlte'),
 equal(negate('gte'), 'ngte')
+equal(negate('eq'), 'neq')
+equal(negate('or'), 'nor')
+equal(negate('xor'), 'nxor')
 
 equal(negate('has a whitespace'), 'does not have a whitespace'),
 equal(negate("have more than"), 'do not have more than'),
