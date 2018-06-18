@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/buxlabs/negate-sentence/issues"
   },
-  "homepage": "https://github.com/buxlabs/negate-sentence#readme"
+  "homepage": "https://github.com/buxlabs/negate-sentence#readme",
+  "dependencies": {
+    "pure-utilities": "^1.0.10"
+  }
 }
