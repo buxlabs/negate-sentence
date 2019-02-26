@@ -1,6 +1,6 @@
 {
   "name": "negate-sentence",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Negate sentence",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/buxlabs/negate-sentence#readme",
   "dependencies": {
-    "pure-utilities": "^1.0.10"
+    "pure-utilities": "^1.1.10"
   }
 }

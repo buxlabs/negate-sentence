@@ -1,4 +1,4 @@
-const { string: { singularize, pluralize } } = require('pure-utilities')
+const { singularize, pluralize } = require('pure-utilities/string')
 
 module.exports = function negate(string) {
   if (['gt', 'lt', 'gte', 'lte', 'and', 'eq', 'or', 'xor'].includes(string)) return `n${string}`
